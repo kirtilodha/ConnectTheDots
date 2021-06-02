@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+*{
+  color: black;
+}
 body{
   box-sizing: border-box;
 }
@@ -10,10 +14,17 @@ body{
   background-size: 100% 100%;
   margin: 0;
 }
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 h2{
   position: relative;
   top: 100px;
-  font-family: "Brush Script MT", "Lucida Console", "Lucida Handwriting";
+  font-family: 'Stint Ultra Condensed', cursive;
   font-weight: 900;
   font-size: 90px;
   margin-bottom: 2px;
@@ -22,14 +33,14 @@ h2{
 .header p{
   position: relative;
   top: 100px;
-  font-family: "Brush Script MT", "Lucida Console", "Lucida Handwriting";
+  font-family: 'Stint Ultra Condensed', cursive;
   font-size: 30px;
   margin-top: 0px;
   text-align: center;
   margin-bottom: 5%;
 }
 .card img{
-  width: 250px;
+  width: 350px;
   height: 400px;
   margin: 0 auto;
 }
