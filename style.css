@@ -1,0 +1,75 @@
+body{
+  box-sizing: border-box;
+}
+.header{
+  background-image:url("./images/main.jpg");
+  background-size: contain;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-size: 100% 100%;
+  margin: 0;
+}
+h2{
+  position: relative;
+  top: 100px;
+  font-family: "Brush Script MT", "Lucida Console", "Lucida Handwriting";
+  font-weight: 900;
+  font-size: 90px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.header p{
+  position: relative;
+  top: 100px;
+  font-family: "Brush Script MT", "Lucida Console", "Lucida Handwriting";
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.card img{
+  width: 250px;
+  height: 400px;
+  margin: 0 auto;
+}
+.card-deck .card{
+  width: 30%;
+  border: 1px solid #BFBFBF;
+  margin: 40px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.card-deck{
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* -----hover ------*/
+
+.card-deck .card:hover{
+  background-color: rgba(238, 236, 236, 0.863);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(54, 52, 52);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin-top: 20px;
+}
